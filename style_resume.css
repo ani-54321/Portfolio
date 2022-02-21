@@ -238,3 +238,33 @@ li {
         width: 110px;
     }
 }
+
+@media(max-width:390px){
+    html {
+        font-size: 25%;
+    }
+    .other {
+        width: 300px;
+    }
+    .contact {
+        width: 90px;
+    }
+    .image {
+        width: 90px;
+    }
+}
+
+@media(max-width:360px){
+    html {
+        font-size: 20%;
+    }
+    .other {
+        width: 300px;
+    }
+    .contact {
+        width: 90px;
+    }
+    .image {
+        width: 90px;
+    }
+}
