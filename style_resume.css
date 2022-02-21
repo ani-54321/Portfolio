@@ -11,42 +11,63 @@ body{
 #page {
     display: flex;
     color: #181818;
+    /* background-color: #FFFFFF; */
 }
 
 .heading {
     color:#008B8B;
     text-decoration: underline;
+    /* line-height: 2rem; */
 }
 
 .contact {
+    /* border-radius: 30px; */
     border-radius: 2rem;
     display: block;
+    /* flex: 25%; */
     flex:300px;
     line-height: 1.5rem;
+    /* width: max-content; */
     background-color: white;
     margin: 2% 1% 2% 2%;
+    /* margin: 20px 10px 20px 20px; */
     box-shadow: 0 0 15px #000000;
+    /* box-shadow: 10rem black; */
+    /* border: 10rem inset gray; */
+    /* padding: 2rem 5rem; */
 }
 
 .other {
+    /* border-radius: 30px; */
     border-radius: 2rem;
     display: block;
+    /* flex: 75%; */
     flex: 900px;
     line-height: 0.8rem;
     background-color: white;
     margin: 2% 1% 2% 2%;
+    /* margin: 20px 10px 20px 20px; */
     box-shadow: 0 0 15px #000000;
+    /* width: max-content; */
 }
 
 .image {
+    /* width: 100%; */
     width: 300px;
+    /* height: max-content; */
+    /* padding: 0%; */
+    /* padding: 0rem; */
     padding-bottom: 20%;
+    /* overflow: hidden; */
+    /* padding-bottom: 50px; */
+    /* border-radius: 30px; */
     border-radius: 2rem;
 }
 
 .name {
     font-size:2.2rem;
     font-weight: 700;
+    /* padding-left: 50px; */
     padding-left: 19%;
     text-decoration: underline;
     color:#404040;
@@ -55,10 +76,15 @@ body{
 
 .info {
     padding-left: 15%;
+    /* padding-left: 50px; */
+    /* padding-bottom: 20px; */
     padding-bottom: 10%;
+    /* text-align: left; */
     height: max-content;
+    /* width: 75%; */
     background-color: white;
     color: #404040;
+    /* border-radius: 30px; */
     border-radius: 2rem;
     line-height: 1.5rem;
 }
@@ -71,17 +97,23 @@ body{
 
 img {
     width: 90%;
+    /* width: 270px; */
+    /* border-radius: 30px; */
     border-radius: 2rem;
     padding: 5%;
+    /* padding: 15px; */
 }
 
 a {
+    /* text-decoration: none; */
     font-style: italic;
     color: #000000;
     line-height: 1.5rem;
 }
 
 li {
+    /* line-height: 200%; */
+    /* line-height: 40px; */
     line-height: 2rem;
 }
 
@@ -90,10 +122,15 @@ li {
     margin-left:5%;
     margin-right:2%;
     line-height: 2.5rem;
+    /* margin: 50px; */
 }
 
 .element_in_other {
+    /* width: 100%; */
+    /* display: flex; */
+    /* text-indent: 20%; */
     height:min-content;
+    /* background-color: skyblue; */
 }
 
 
