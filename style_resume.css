@@ -1,3 +1,8 @@
+html {
+    font-size:80%;
+    line-height: 80%;
+}
+
 body{
     font-family: Arial;
     background-color: #E0E0E0;
@@ -5,9 +10,7 @@ body{
 
 #page {
     display: flex;
-    border-radius: 30px;
     color: #181818;
-    /* background-color: #FFFFFF; */
 }
 
 .heading {
@@ -16,92 +19,185 @@ body{
 }
 
 .contact {
-    border-radius: 30px;
+    border-radius: 2rem;
     display: block;
-    font-size: inherit;
-    /* flex: 25%; */
     flex:300px;
-    /* width: max-content; */
+    line-height: 1.5rem;
     background-color: white;
-    /* margin: 2% 1% 2% 2%; */
-    margin: 20px 10px 20px 20px;
+    margin: 2% 1% 2% 2%;
     box-shadow: 0 0 15px #000000;
-    /* box-shadow: 10px black; */
-    /* border: 10px inset gray; */
-    /* padding: 2px 5px; */
 }
 
 .other {
-    border-radius: 30px;
+    border-radius: 2rem;
     display: block;
-    /* flex: 75%; */
     flex: 900px;
+    line-height: 0.8rem;
     background-color: white;
-    /* margin: 2% 1% 2% 2%; */
-    margin: 20px 10px 20px 20px;
+    margin: 2% 1% 2% 2%;
     box-shadow: 0 0 15px #000000;
-    /* width: max-content; */
 }
 
 .image {
-    /* width: 100%; */
     width: 300px;
-    /* height: max-content; */
-    /* padding: 0%; */
-    /* padding: 0px; */
-    /* padding-bottom: 20%; */
-    padding-bottom: 50px;
-    border-radius: 30px;
+    padding-bottom: 20%;
+    border-radius: 2rem;
 }
 
 .name {
-    font-size:xx-large;
+    font-size:2.2rem;
     font-weight: 700;
-    padding-left: 50px;
+    padding-left: 19%;
     text-decoration: underline;
     color:#404040;
+    line-height: 1.5rem;
 }
 
 .info {
-    /* padding-left: 15%; */
-    padding-left: 50px;
-    padding-bottom: 20px;
-    /* text-align: left; */
+    padding-left: 15%;
+    padding-bottom: 10%;
     height: max-content;
-    /* width: 75%; */
     background-color: white;
     color: #404040;
-    border-radius: 30px;
+    border-radius: 2rem;
+    line-height: 1.5rem;
+}
+
+.smalls {
+    font-size: 0.87rem;
+    float:right; 
+    color:#008B8B;
 }
 
 img {
-    /* width: 90%; */
-    width: 270px;
-    border-radius: 30px;
-    /* padding: 4%; */
-    padding: 15px;
+    width: 90%;
+    border-radius: 2rem;
+    padding: 5%;
 }
 
 a {
-    /* text-decoration: none; */
     font-style: italic;
     color: #000000;
+    line-height: 1.5rem;
 }
 
 li {
-    /* line-height: 200%; */
-    line-height: 40px;
+    line-height: 2rem;
 }
 
 .text_in_other {
-    /* margin:5%; */
-    margin: 50px;
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:2%;
+    line-height: 2.5rem;
 }
 
 .element_in_other {
-    /* width: 100%; */
-    /* display: flex; */
-    /* text-indent: 20%; */
     height:min-content;
-    /* background-color: skyblue; */
+}
+
+
+@media(max-width:998px){
+    html {
+        font-size: 55%;
+    }
+    .other {
+        width: 750px;
+    }
+    .contact {
+        width: 250px;
+    }
+    .image {
+        width: 250px;
+    }
+}
+
+@media(max-width:875px){
+    html {
+        font-size: 50%;
+    }
+    .other {
+        width: 700px;
+    }
+    .contact {
+        width: 230px;
+    }
+    .image {
+        width: 230px;
+    }
+}
+
+@media(max-width:825px){
+    html {
+        font-size: 50%;
+    }
+    .other {
+        width: 600px;
+    }
+    .contact {
+        width: 220px;
+    }
+    .image {
+        width: 220px;
+    }
+}
+
+@media(max-width:768px){
+    html {
+        font-size: 45%;
+    }
+    .other {
+        width: 468px;
+    }
+    .contact {
+        width: 200px;
+    }
+    .image {
+        width: 200px;
+    }
+}
+
+@media(max-width:645px){
+    html {
+        font-size: 42%;
+    }
+    .other {
+        width: 460px;
+    }
+    .contact {
+        width: 180px;
+    }
+    .image {
+        width: 180px;
+    }
+}
+
+@media(max-width:600px){
+    html {
+        font-size: 35%;
+    }
+    .other {
+        width: 450px;
+    }
+    .contact {
+        width: 150px;
+    }
+    .image {
+        width: 150px;
+    }
+}
+
+@media(max-width:500px){
+    html {
+        font-size: 30%;
+    }
+    .other {
+        width: 390px;
+    }
+    .contact {
+        width: 110px;
+    }
+    .image {
+        width: 110px;
+    }
 }
