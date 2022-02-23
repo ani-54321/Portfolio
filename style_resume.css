@@ -95,13 +95,20 @@ body{
     color:#008B8B;
 }
 
-img {
+.my_image {
     width: 90%;
     /* width: 270px; */
     /* border-radius: 30px; */
     border-radius: 2rem;
     padding: 5%;
     /* padding: 15px; */
+}
+
+.icons {
+    margin-top: 3%;
+    width: 7%;
+    vertical-align:bottom;
+    margin-right: 6%;
 }
 
 a {
@@ -129,6 +136,7 @@ li {
     /* width: 100%; */
     /* display: flex; */
     /* text-indent: 20%; */
+    /* vertical-align: middle; */
     height:min-content;
     /* background-color: skyblue; */
 }
